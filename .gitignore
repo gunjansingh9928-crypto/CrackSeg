@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+checkpoints/*.pth
+checkpoints/*.onnx
+data/images/*
+data/masks/*
+!data/images/.gitkeep
+!data/masks/.gitkeep
+results/
+.DS_Store
